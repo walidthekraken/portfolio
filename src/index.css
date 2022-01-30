@@ -35,7 +35,7 @@ a:hover{
 
 .hometop{
   display: flex;
-  max-width: 600px;
+  max-width: 400px;
   align-items: center;
   margin: 0 auto;
   padding: 10px;
