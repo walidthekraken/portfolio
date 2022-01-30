@@ -33,6 +33,29 @@ a:hover{
   color: #860048;
 }
 
+.hometop{
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.hometop img {
+  margin-left: auto;
+}
+
+.hometop h2 {
+  color: rgb(70, 70, 70);
+  font-weight: 600;
+ 
+}
+
+.hometop .myname {
+  color: #f40057;
+  margin-left: 4px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
