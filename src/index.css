@@ -35,7 +35,7 @@ a:hover{
 
 .hometop{
   display: flex;
-  max-width: 400px;
+  max-width: 450px;
   align-items: center;
   margin: 0 auto;
   padding: 10px;
@@ -48,10 +48,15 @@ a:hover{
 .hometop h2 {
   color: rgb(70, 70, 70);
   font-weight: 600;
- 
 }
 
 .hometop .myname {
+  color: #f40057;
+  margin-left: 4px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.hometop .job {
   color: #f40057;
   margin-left: 4px;
 }
