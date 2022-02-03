@@ -122,11 +122,12 @@ a:hover{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .hometop img {
-    margin-left: auto;
-    max-width: 190px;
-    max-height: 190px;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 0;
+    margin-top: 30px;
   }
 
   .navbar .links button {
@@ -142,11 +143,12 @@ a:hover{
 
   .hometop{
     max-width: 400px;
-    font-size: 15px;
+    font-size: 20px;
+    flex-direction: column;
   }
   .hometop .myname {
     padding-left: 40px;
-    padding-right: 37px;
+    padding-right: 40px;
   }
 
 }
@@ -159,9 +161,8 @@ a:hover{
     font-size: 18px;
   }
   .hometop img {
-    margin-left: auto;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 250px;
+    max-height: 250px;
     margin-bottom: 50px;
     margin-top: 50px;
   }
