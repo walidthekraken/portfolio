@@ -121,6 +121,14 @@ a:hover{
   margin-top: 20px;
 }
 
+.contact {
+  padding: 20px;
+}
+
+.contact h2 {
+  font-size: 30px;
+}
+
 
 @media (max-width: 700px) {
   .hometop img {

@@ -8,7 +8,7 @@ export const Navbar = (props) => {
                     <span>    </span>
                     <button onClick={props.handleOverviewClick}>Overview</button>
                     <span>    </span>
-                    <button>Contact</button>
+                    <button onClick={props.handleContactClick}>Contact</button>
                 </div>
             </nav>
         </div>
