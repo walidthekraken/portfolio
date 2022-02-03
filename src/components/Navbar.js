@@ -1,14 +1,16 @@
-export const Navbar = () => {
+export const Navbar = (props) => {
     return (
-        <nav className="navbar">
-            <span className="title">Portfolio</span>
-            <div className="links">
-                <a href='/'>Home</a>
-                <span>    </span>
-                <a href='/'>Projects</a>
-                <span>    </span>
-                <a href='/'>Contact</a>
-            </div>
-        </nav>
+        <div className="navbar_container">
+            <nav className="navbar" id="navbar">
+                <span className="title">Portfolio</span>
+                <div className="links">
+                    <button>Home</button>
+                    <span>    </span>
+                    <button onClick={props.handleOverviewClick}>Overview</button>
+                    <span>    </span>
+                    <button>Contact</button>
+                </div>
+            </nav>
+        </div>
     );
 } 

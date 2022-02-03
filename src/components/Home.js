@@ -6,13 +6,11 @@ export const Home = () => {
 
     const jobs = ['Mobile Developer', 'Web Developer', 'Data Scientist'];
     
-
     const [job, setJob] = useState(jobs[0]);
     const [ji, setJi] = useState(0);
     const [letter, setLetter] = useState(jobs[ji].length);
     
     useEffect(() => {
-        console.log('im running');
         let interval = null;
         const jobs = ['Mobile Developer', 'Web Developer', 'Data Scientist'];
         
@@ -48,7 +46,7 @@ export const Home = () => {
                 <h2>I'm a </h2>
                 <h2 className='job'> {job}</h2>
             </div>
-            <img src={mypic} alt=" pic" width={200} ></img>
+            <img src={mypic} alt=" pic" ></img>
         </div>
 
     </div>
